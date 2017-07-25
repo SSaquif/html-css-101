@@ -1,44 +1,53 @@
+body
+{
+	font-family: 'Bellefair', serif;
+}
 header
 {
 	display: flex;
 	flex-direction: column;
-	background: url(http://www.cs.mcgill.ca/~ssaqui/cgi-bin/Cat_pics/Background3.jpg);
-	color: white;
+	background: url(http://hdbackgroundspic.com/wp-content/uploads/2016/10/line-background-dark-abstract.jpg);
+	background-origin: content-box;
+	color:White;
+	min-width: 600%;
+	min-height: 300%;
 }
-
-.section3-article
+.title
 {
-	justify-content:center;
+	font-family: 'Pacifico', cursive;
 }
-
+.description
+{
+	font-family: 'Bellefair', serif;
+}
 
 .fa-ul
 {
 	display: flex;
 	flex-direction: row;
+	margin-left: 0em;
 }
+
+.icons:hover
+{
+	background-color: rgb(149, 249, 49);
+	background-color: rgba(14, 49, 249,1);
+}
+
+
 
 .medium-icons
 {
 	border: 2px solid;
-	background-color: lightgrey;
-	border-color: grey;
+	background-color: rgb(149, 249, 49);
+	border-color: rgb(62, 124, 0);
 	padding: 10px;
 	border-radius: 50%;
+	color: black;
 	font-size: 20px;
-	margin-left: 20px;
+	margin-left: 10px;
+	margin-right: 10px;
 }
-
-.large-icons
-{
-	border: 2px solid;
-	background-color: lightgrey;
-	border-color: grey;
-	padding: 15px;
-	border-radius: 50%;
-	font-size: 40px;
-}
-
 
 .flex-section1
 {
@@ -49,6 +58,16 @@ header
 	background: white;
 }
 
+.large-icons
+{
+	border: 2px solid;
+	background-color: rgb(149, 249, 49);
+	border-color: rgb(62, 124, 0);
+	padding: 15px;
+	border-radius: 50%;
+	font-size: 40px;
+}
+
 .flex-section2
 {
 	display: flex;
@@ -57,23 +76,82 @@ header
 	align-items:center;
 }
 
+.input-form
+{
+	display: flex;
+}
+
+
+.input-form-textbox
+{
+	border-top-left-radius: 0.5em;
+	border-bottom-left-radius: 0.5em;
+}
+.input-form-button
+{
+	margin-left: -0.2cm;
+	background-color: rgb(149, 249, 49);
+	border-right-color: rgb(62, 124, 0);
+	border-top-color: rgb(62, 124, 0);
+	border-bottom-color: rgb(62, 124, 0);
+	border-top-right-radius: 0.5em;
+	border-bottom-right-radius: 0.5em;
+}
+
+.input-form-button:hover
+{
+	background-color: rgb(149, 249, 49);
+	background-color: rgba(14, 49, 249,1);
+}
+
 .flex-section3
 {
 	display: flex;
-	margin: auto;
+	
 	background: white;
 	justify-content: center;
 	align-items:center;
 }
+
+.flex-section3-article
+{
+	justify-content:center;
+	align-items:center;
+}
+
+.flex-section3-item
+{
+	justify-content:center;
+	align-items: center;
+	text-align: center;
+}
+
+.image-box
+{
+	justify-content: center;
+	align-self: center;
+	align-items: center;
+}
+
+.name-label
+{
+	display: flex;
+	flex-direction: row;
+	align-self: center;
+	align-items:center;
+}
+
 .profile
 {
 	display: flex;
 	flex-direction: row;
-	width: 250px;
+	width: 100%;
 	height: 60px;
 	align-self: center;
 	align-items:center;
+	
 }
+
 .profile-pic
 {
 	display: flex;
@@ -81,16 +159,30 @@ header
 	width: 50px;
 	height: 50px;
 	align-self: center;
+	justify-content: center;
+	
 }
 
-.input-form
+.small-icons
 {
-	display: flex;
+	padding: 10px;
+	font-size: 15px;
+	margin-left: 20px;
+	margin-right: 20px;
+	border: 2px solid;
+	background-color: rgb(149, 249, 49);
+	border-color: rgb(62, 124, 0);
+	border-radius: 50%;
 }
 
 nav
 {
-	display: flex;
+	display: block;
 	background: lightgrey;
+	text-align: center;
 }
 
+.nav-item
+{
+	margin: 10px; 
+}
