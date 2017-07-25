@@ -9,8 +9,8 @@ header
 	background: url(http://hdbackgroundspic.com/wp-content/uploads/2016/10/line-background-dark-abstract.jpg);
 	background-origin: content-box;
 	color:White;
-	min-width: 600%;
-	min-height: 300%;
+	min-width: 100%;
+	min-height: 500%;
 }
 .title
 {
@@ -74,6 +74,13 @@ header
 	background: lightgrey;
 	justify-content: center;
 	align-items:center;
+	padding:10px;
+}
+
+.flex-section2-item
+{
+	margin:10px;
+	padding:5px;
 }
 
 .input-form
@@ -96,12 +103,6 @@ header
 	border-bottom-color: rgb(62, 124, 0);
 	border-top-right-radius: 0.5em;
 	border-bottom-right-radius: 0.5em;
-}
-
-.input-form-button:hover
-{
-	background-color: rgb(149, 249, 49);
-	background-color: rgba(14, 49, 249,1);
 }
 
 .flex-section3
@@ -154,13 +155,8 @@ header
 
 .profile-pic
 {
-	display: flex;
-	flex-direction: row;
 	width: 50px;
 	height: 50px;
-	align-self: center;
-	justify-content: center;
-	
 }
 
 .small-icons
