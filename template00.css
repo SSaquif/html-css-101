@@ -1,0 +1,96 @@
+header
+{
+	display: flex;
+	flex-direction: column;
+	background: url(http://www.cs.mcgill.ca/~ssaqui/cgi-bin/Cat_pics/Background3.jpg);
+	color: white;
+}
+
+.section3-article
+{
+	justify-content:center;
+}
+
+
+.fa-ul
+{
+	display: flex;
+	flex-direction: row;
+}
+
+.medium-icons
+{
+	border: 2px solid;
+	background-color: lightgrey;
+	border-color: grey;
+	padding: 10px;
+	border-radius: 50%;
+	font-size: 20px;
+	margin-left: 20px;
+}
+
+.large-icons
+{
+	border: 2px solid;
+	background-color: lightgrey;
+	border-color: grey;
+	padding: 15px;
+	border-radius: 50%;
+	font-size: 40px;
+}
+
+
+.flex-section1
+{
+	display: flex;
+	justify-content: center;
+	align-items:center;
+	text-align: center;
+	background: white;
+}
+
+.flex-section2
+{
+	display: flex;
+	background: lightgrey;
+	justify-content: center;
+	align-items:center;
+}
+
+.flex-section3
+{
+	display: flex;
+	margin: auto;
+	background: white;
+	justify-content: center;
+	align-items:center;
+}
+.profile
+{
+	display: flex;
+	flex-direction: row;
+	width: 250px;
+	height: 60px;
+	align-self: center;
+	align-items:center;
+}
+.profile-pic
+{
+	display: flex;
+	flex-direction: row;
+	width: 50px;
+	height: 50px;
+	align-self: center;
+}
+
+.input-form
+{
+	display: flex;
+}
+
+nav
+{
+	display: flex;
+	background: lightgrey;
+}
+
